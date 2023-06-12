@@ -31,4 +31,18 @@ yargs
   }, (argv) => {
     console.log(`Result=${calc.mult(argv.first, argv.second)}!`)
   })
+  .command('sub', 'subrract two numbers', (yargs) => {
+    yargs.option('first', {
+      describe: 'first value',
+      demandOption: true,
+      type: 'number'
+    })
+    yargs.option('second', {
+        describe: 'second value to subtract from first',
+        demandOption: true,
+        type: 'number'
+      })
+  }, (argv) => {
+    console.log(`Result=${calc.sub(argv.first, argv.second)}!`)
+  })
   .argv

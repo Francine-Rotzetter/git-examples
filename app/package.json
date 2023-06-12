@@ -4,11 +4,14 @@
   "description": "example app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "maction",
   "license": "ISC",
   "dependencies": {
     "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
   }
 }
