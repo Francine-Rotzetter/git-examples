@@ -4,7 +4,7 @@ const calc = require("./lib/calculator")
 
 yargs
   .command('add', 'calculate sum of two numbers', () => {
-    yargs.option('first', {
+    yargs.option('1st', {
         describe: 'first value',
         demandOption: true,
         type: 'number'
