@@ -15,7 +15,15 @@ function pot(x, y) {
     return x * y
 }
 
+function div(a, b) {
+    if (b == 0) {
+        return undefined
+    }
+    return a / b
+}
+
 exports.sub = sub
 exports.add = add
 exports.multiply = multiply
 exports.pot = pot
+exports.div = div

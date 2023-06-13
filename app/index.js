@@ -31,4 +31,18 @@ yargs
   }, (argv) => {
     console.log(`Result=${calc.mult(argv.first, argv.second)}!`)
   })
+  .command('pot', 'calculate x potentiated by y', (yargs) => {
+    yargs.option('x', {
+      describe: 'x value',
+      demandOption: true,
+      type: 'number'
+    })
+    yargs.option('y', {
+        describe: 'y value',
+        demandOption: true,
+        type: 'number'
+      })
+  }, (argv) => {
+    console.log(`Result=${calc.pot(argv.x, argv.y)}!`)
+  })  
   .argv
