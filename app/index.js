@@ -9,7 +9,7 @@ yargs
         demandOption: true,
         type: 'number'
       })
-      yargs.option('second', {
+      yargs.option('2nd', {
           describe: 'second value',
           demandOption: true,
           type: 'number'
@@ -23,7 +23,7 @@ yargs
       demandOption: true,
       type: 'number'
     })
-    yargs.option('second', {
+    yargs.option('2nd', {
         describe: 'second value',
         demandOption: true,
         type: 'number'
