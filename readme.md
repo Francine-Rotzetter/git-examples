@@ -8,3 +8,7 @@ open your local .git folder and explore the structure and some of the files resp
 # adapt the blob file names
 python read.py
 ```
+
+## app
+
+Example folder containing files to demonstrate some git concepts
