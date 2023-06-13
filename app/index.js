@@ -18,7 +18,7 @@ yargs
     console.log(`Result=${calc.add(argv.first, argv.second)}!`)
   })
   .command('mult', 'calculate multiplication of two numbers', (yargs) => {
-    yargs.option('first', {
+    yargs.option('1st', {
       describe: 'first value',
       demandOption: true,
       type: 'number'
