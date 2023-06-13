@@ -11,8 +11,12 @@ function multiply(first, second) {
     return first * second
 }
 
-function pot(x, y) {
-    return x * y
+function pot(x, exponent) {
+    let result = 1
+    for (let i = 0; i < exponent; i++) {
+      result *= x
+    }
+    return result
 }
 
 function div(a, b) {
