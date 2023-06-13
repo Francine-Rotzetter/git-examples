@@ -17,6 +17,34 @@ yargs
   }, (argv) => {
     console.log(`Result=${calc.add(argv.first, argv.second)}!`)
   })
+  .command('sub', 'subtracts second from first value', () => {
+    yargs.option('first', {
+        describe: 'first value',
+        demandOption: true,
+        type: 'number'
+      })
+      yargs.option('second', {
+          describe: 'second value',
+          demandOption: true,
+          type: 'number'
+        })
+  }, (argv) => {
+    console.log(`Result=${calc.sub(argv.first, argv.second)}!`)
+  })
+  .command('div', 'divide two numbers', () => {
+    yargs.option('first', {
+        describe: 'first value',
+        demandOption: true,
+        type: 'number'
+      })
+      yargs.option('second', {
+          describe: 'second value',
+          demandOption: true,
+          type: 'number'
+        })
+  }, (argv) => {
+    console.log(`Result=${calc.div(argv.first, argv.second)}!`)
+  })  
   .command('mult', 'calculate multiplication of two numbers', (yargs) => {
     yargs.option('first', {
       describe: 'first value',
