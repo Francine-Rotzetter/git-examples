@@ -7,6 +7,13 @@ function sub(first, second) {
     return first - second
 }
 
+function div(a, b) {
+    if (b == 0) {
+        return undefined
+    }
+    return a / b
+}
+
 function multiply(first, second) {
     return first * second
 }
@@ -19,15 +26,8 @@ function pot(x, exponent) {
     return result
 }
 
-function div(a, b) {
-    if (b == 0) {
-        return undefined
-    }
-    return a / b
-}
-
-exports.sub = sub
 exports.add = add
+exports.sub = sub
+exports.div = div
 exports.multiply = multiply
 exports.pot = pot
-exports.div = div
