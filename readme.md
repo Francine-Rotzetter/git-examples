@@ -1,21 +1,9 @@
 # GIT
 
-## Understanding git internals
+## First new section
 
-open your local .git folder and explore the structure and some of the files resp `blobs`inside by using the read.py script
+we will have to complete this later on
 
-```bash
-# adapt the blob file names
-python read.py
-```
-
-## Yet another section
-
-```python
-def dummy_function():
-    # Add your code here
-    pass
-```
 
 ## Another new section
 
@@ -58,6 +46,20 @@ Here are some steps to follow:
 Remember to replace `username` and `repository` with the appropriate values for your repository.
 
 
-## First new section
+## Understanding git internals
 
-we will have to complete this later on
+open your local .git folder and explore the structure and some of the files resp `blobs`inside by using the read.py script
+
+```bash
+# adapt the blob file names
+python read.py
+```
+
+
+## Yet another section
+
+```python
+def dummy_function():
+    # Add your code here
+    pass
+```
