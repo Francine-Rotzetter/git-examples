@@ -11,7 +11,11 @@ python read.py
 
 ## Yet another section
 
-TBD
+```python
+def dummy_function():
+    # Add your code here
+    pass
+```
 
 ## Another new section
 
